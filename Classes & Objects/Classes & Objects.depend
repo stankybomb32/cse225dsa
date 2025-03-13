@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1739463715 source:f:\study materials\nsu\cse225_code\classes & objects\dynarr.cpp
+	"dynArr.h"
+	<iostream>
+
+1739464046 f:\study materials\nsu\cse225_code\classes & objects\dynarr.h
+
+1739463994 source:f:\study materials\nsu\cse225_code\classes & objects\main.cpp
+	<iostream>
+	"dynArr.h"
+

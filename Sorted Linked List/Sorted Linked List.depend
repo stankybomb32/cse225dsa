@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1741731125 source:f:\study materials\nsu\cse225_code\sorted linked list\main.cpp
+	<iostream>
+	"sortedtype.cpp"
+
+1741731056 source:f:\study materials\nsu\cse225_code\sorted linked list\sortedtype.cpp
+	"sortedtype.h"
+	<iostream>
+
+1741726415 f:\study materials\nsu\cse225_code\sorted linked list\sortedtype.h
+
+1741731056 f:\study materials\nsu\cse225_code\sorted linked list\sortedtype.cpp
+	"sortedtype.h"
+	<iostream>
+

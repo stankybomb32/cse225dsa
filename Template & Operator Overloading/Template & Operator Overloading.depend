@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1740600521 source:f:\study materials\nsu\cse225_code\template & operator overloading\main.cpp
+	<iostream>
+	"src\dynArr.cpp"
+
+1740600787 source:f:\study materials\nsu\cse225_code\template & operator overloading\src\dynarr.cpp
+	"dynArr.h"
+
+1740600265 f:\study materials\nsu\cse225_code\template & operator overloading\include\dynarr.h
+
+1740600787 f:\study materials\nsu\cse225_code\template & operator overloading\src\dynarr.cpp
+	"dynArr.h"
+
