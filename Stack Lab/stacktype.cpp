@@ -1,4 +1,4 @@
-#include "StackType.h"
+#include "stacktype.h"
 template <class ItemType> StackType<ItemType>::StackType() { top = -1; }
 template <class ItemType> bool StackType<ItemType>::IsEmpty() {
   return (top == -1);
