@@ -8,6 +8,12 @@ LinkedList<ItemType>::LinkedList()
     head = NULL;
 }
 
+
+template <class ItemType>
+int LinkedList<ItemType>::getLen(){
+    return length;
+}
+
 template <class ItemType>
 void LinkedList<ItemType>::add(ItemType item)
 {
@@ -97,3 +103,45 @@ void LinkedList<ItemType>::print()
 }
 
 
+template <class ItemType>
+void LinkedList<ItemType>::delFirst()
+{
+    if(head == NULL)
+    {
+        // does nothing
+    }
+    else{
+        Node* temp = head;
+        head = temp->next;
+        delete temp;
+        length--;
+    }
+}
+
+template <class ItemType>
+void LinkedList<ItemType>::delLast()
+{
+    if(head == NULL)
+    {
+        // does nothing
+    }
+    else{
+        Node* location = head;
+        Node* temp = location->next;
+        if(temp == NULL)
+        {
+            head = NULL;
+            delete location;
+        }
+        else{
+            while(temp->next != NULL)
+            {
+                temp = temp->next;
+                location = location->next;
+            }
+            location = NULL;
+            delete temp;
+            length--;
+        }
+    }
+}

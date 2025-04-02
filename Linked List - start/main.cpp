@@ -22,5 +22,11 @@ int main()
         cout << "3 is in nums" << endl;
     }
 
+    nums.delFirst();
+    nums.print();
+
+    nums.delLast();
+    nums.print();
+
     return 0;
 }

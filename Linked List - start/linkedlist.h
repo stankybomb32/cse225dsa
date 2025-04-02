@@ -17,6 +17,8 @@ public:
     ItemType getNext();
     void resetPos();
     void print();
+    void delFirst();
+    void delLast();
 private:
     Node* head;
     int length = 0;
