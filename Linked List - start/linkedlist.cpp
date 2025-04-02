@@ -21,6 +21,29 @@ void LinkedList<ItemType>::add(ItemType item)
 }
 
 template <class ItemType>
+void LinkedList<ItemType>::append(ItemType item)
+{
+    Node* newNode;
+    newNode = new Node;
+    newNode->data = item;
+    newNode->next = NULL;
+    if(head == NULL)
+    {
+        head = newNode;
+    }
+    else {
+        Node* location;
+        location = head;
+        while(location->next != NULL)
+        {
+            location = location->next;
+        }
+        location->next = newNode;
+    }
+    length++;
+}
+
+template <class ItemType>
 ItemType LinkedList<ItemType>::getNext()
 {
     ItemType temp;
@@ -32,6 +55,13 @@ ItemType LinkedList<ItemType>::getNext()
     pos = pos->next;
 
     return temp;
+}
+
+
+template <class ItemType>
+void LinkedList<ItemType>::resetPos()
+{
+    pos = head;
 }
 
 template <class ItemType>

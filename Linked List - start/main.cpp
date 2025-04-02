@@ -13,5 +13,9 @@ int main()
     
     nums.print();
 
+    nums.append(7);
+
+    nums.print();
+
     return 0;
 }

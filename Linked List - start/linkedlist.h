@@ -15,6 +15,7 @@ public:
     bool get(ItemType&);
     int getLen();
     ItemType getNext();
+    void resetPos();
     void print();
 private:
     Node* head;
