@@ -12,7 +12,7 @@ public:
     LinkedList();
     void add(ItemType); //inserts in the beginning
     void append(ItemType); //inserts in the end
-    bool get(ItemType&);
+    bool get(ItemType);
     int getLen();
     ItemType getNext();
     void resetPos();

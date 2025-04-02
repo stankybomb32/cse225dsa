@@ -17,5 +17,10 @@ int main()
 
     nums.print();
 
+    if(nums.get(3))
+    {
+        cout << "3 is in nums" << endl;
+    }
+
     return 0;
 }

@@ -57,6 +57,28 @@ ItemType LinkedList<ItemType>::getNext()
     return temp;
 }
 
+template <class ItemType>
+bool LinkedList<ItemType>::get(ItemType item)
+{
+    if(head == NULL)
+    {
+        return false;
+    }
+    else {
+        Node* location = head;
+        while(location->next != NULL)
+        {
+            if (location->data == item)
+            {
+                return true;
+            }
+            location = location->next;
+        }
+        return false;
+    }
+
+}
+
 
 template <class ItemType>
 void LinkedList<ItemType>::resetPos()
