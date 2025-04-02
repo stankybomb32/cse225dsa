@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1742196087 source:f:\study materials\nsu\cse225_code\linked list - start\main.cpp
+	<iostream>
+	"linkedlist.cpp"
+
+1742195999 source:f:\study materials\nsu\cse225_code\linked list - start\linkedlist.cpp
+	"linkedlist.h"
+	<iostream>
+
+1742195668 f:\study materials\nsu\cse225_code\linked list - start\linkedlist.h
+
+1742196117 f:\study materials\nsu\cse225_code\linked list - start\linkedlist.cpp
+	"linkedlist.h"
+	<iostream>
+
