@@ -10,4 +10,8 @@ int main()
     Tree.InsertItem(7);
 
     Tree.Print();
+
+    cout << endl;
+    cout << Tree.SearchItem(7) << endl;
+    cout << Tree.SearchItem(11);
 }

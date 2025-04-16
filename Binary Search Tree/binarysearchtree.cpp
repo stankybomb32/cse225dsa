@@ -51,3 +51,29 @@ void BinarySearchTree<Itemtype>::Print()
 {
     PrintNode(root);
 }
+
+template <class Itemtype>
+bool Search(Node<Itemtype>* tree, Itemtype data){
+    if (tree == NULL){
+        return false;
+    }
+    else if (tree->info == data)
+    {
+        return true;
+    }
+    else if(data < tree->info){
+        return Search(tree->left, data);
+    }
+    else if(data > tree->info){
+        return Search(tree->right, data);
+    }
+    else 
+    {
+        return false;
+    }
+}
+
+template <class Itemtype>
+bool BinarySearchTree<Itemtype>::SearchItem(Itemtype data){
+    return Search(root, data);
+}
